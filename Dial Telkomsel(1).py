@@ -8,7 +8,7 @@ while True:
 5. Info Paket
 '''.center(50))
 
-    #minta = int(input('> Masukkan nominal pulsa yang ingin ditransfer: '))
+    ##minta = int(input('> Masukkan nominal pulsa yang ingin ditransfer: '))
     menu = input('> Pilih menu: ')
     print('~'*50)
     print()
