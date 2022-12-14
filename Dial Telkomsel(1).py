@@ -1,14 +1,14 @@
 while True:
     print('= SELAMAT DATANG DI GRAPARI TELKOMSEL KW ='.center(50))
     print('''
-1. Transfer Pulsa
-2. Minta Pulsa
-3. Cek Pulsa
-4. Cek Kuota
-5. Info Paket
-'''.center(50))
+    1. Transfer Pulsa
+    2. Minta Pulsa
+    3. Cek Pulsa
+    4. Cek Kuota
+    5. Info Paket
+    '''.center(50))
 
-    ##minta = int(input('> Masukkan nominal pulsa yang ingin ditransfer: '))
+
     menu = input('> Pilih menu: ')
     print('~'*50)
     print()
