@@ -4,8 +4,15 @@ no_rek = int(input("> Nomor rekening: "))
 pin = int(input('> Pin: '))
 saldo = int(input('> Saldo: '))
 
+print('-'*50)
+print('~ Nama    : ',nama)
+print('~ Kelas     : ', kelas)
+print('~ No. Rek : ', no_rek)
+print('~ Pin        : ', pin)
+print('-'*50)
+
 while True:
-    print('\n' *3)
+    print('\n' *2)
     print("=" * 20)
     print("=" + "ATM SEDERHANA".center(31) + "=")
     print("=" * 20)
@@ -19,7 +26,6 @@ Selamat Datang di Mesin ATM Sederhana!''')
 3. Keluar
 ''')
     pilihan = input("Masukkan pilihan Anda : ")
-    print()
     if pilihan == '1':
         print(f"~~~ Saldo rekening Anda : Rp. {saldo} ~~~")
         konfirmasi = input("(Tekan tombol apapun untuk lanjut)")
