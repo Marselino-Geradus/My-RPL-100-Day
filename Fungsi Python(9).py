@@ -1,6 +1,7 @@
 print('+'*30)
 print('>>> PROGRAM EDISI NATALAN <<<')
 print('+'*30)
+print()
 
 
 def kue(ini_kue ='KUE TAHUN BARU'):
@@ -33,7 +34,7 @@ Selamat Hari Natal dan Tahun Baru !!!'''
 
     print()
     print('~'*15)
-    pesan = input('Mau pesan apa? : ')
+    pesan = input('~ Mau pesan apa? : ')
     if pesan == '1':
         print(a)
     elif pesan == '2':
@@ -41,10 +42,11 @@ Selamat Hari Natal dan Tahun Baru !!!'''
     elif pesan == '3':
         print(a)
     else:
-        print('Mohon maaf, pilihan Anda tidak tersedia! Silakan pilih ulang.')
+        print('>>> Mohon maaf, pilihan Anda tidak tersedia! Silakan pilih ulang.')
 
 
 while True:
+    print('-'*55)
     print()
     print('='*30)
     print('= TOKO KUE ='.center(30))
@@ -56,7 +58,7 @@ while True:
     ''')
 
 
-    pilih = input('Pilih menu: ')
+    pilih = input('~ Pilih menu: ')
 
     if pilih == '1':
         kue('KUE NATAL')
@@ -65,5 +67,5 @@ while True:
         kue()
         pesanan()
     else:
-        print('Masukan Anda salah! ')
+        print('>>> Masukan Anda salah! ')
 
