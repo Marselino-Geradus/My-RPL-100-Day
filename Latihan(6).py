@@ -1,4 +1,5 @@
 '''Ini adalah soal (2-Ronde 2) dalam lomba Coding War yang diselenggarakan oleh RPL Lab Unsulbar'''
+
 angka = int(input('Masukkan angka: '))
 if angka % 3 == 0:
     print('Pride of 3')
