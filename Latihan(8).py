@@ -1,4 +1,4 @@
-'''Ini adalah soal (2-FINAL) dalam lomba Coding War yang diselenggarakan oleh RPL Lab Unsulbar'''
+'''Ini adalah soal (1-FINAL) dalam lomba Coding War yang diselenggarakan oleh RPL Lab Unsulbar'''
 
 while True:
     print('='*45)
