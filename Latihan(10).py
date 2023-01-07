@@ -4,7 +4,8 @@
 - RPL Lab Unsulbar
 '''
 
-#Proses Cari Jawaban 1
+
+#Proses Cari Jawaban I
 
 #PREDIKSI KEUNTUNGAN INVESTASI
 modalAwal = int(input('Modal awal: '))
@@ -16,3 +17,4 @@ modal2 = modalAwal + keuntungan_tahun
 tingkat_pertumbuhan_keuntungan_tiap_tahun = keuntungan_tahun * modal2
 print("Keuntungan yang diterima dalam setahun = ",keuntungan_tahun)
 print('Prediksi peningkatan keuntungan tiap tahun = ',tingkat_pertumbuhan_keuntungan_tiap_tahun)
+
