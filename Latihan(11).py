@@ -12,10 +12,9 @@ yang akan didapatkan investor jika ketentuan investasi sebagai berikut:
 ''' 
 
 #Proses Cari Jawaban II
-
 #PREDIKSI KEUNTUNGAN INVESTASI
-
 #Ini masih dalam proses mencari metode yang benar
+
 modalAwal = 5000000
 bulan = 12
 lama_investasi = 2
