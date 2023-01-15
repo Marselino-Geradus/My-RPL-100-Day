@@ -1,4 +1,4 @@
-'''Mencari Median suatu Data'''
+'''Mencari Modus suatu Data'''
 import statistics
 
 while True:
@@ -9,6 +9,6 @@ while True:
         data.append(int(a))
 
     data.sort()
-    print(f'Data     --> {data}')
-    med = statistics.median(data)
-    print(f'Median   --> {med}')
+    mod = statistics.mode(data)
+    print(f'Modus --> {mod}')
+    print('=================')
